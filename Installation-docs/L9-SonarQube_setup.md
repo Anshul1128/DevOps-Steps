@@ -1,7 +1,7 @@
 ## SonarQube Configuration 
 
 1. Setup SonarQube server.
-        Or Create Sonar cloud account on https://sonarcloud.io
+        `OR` Create Sonar cloud account on https://sonarcloud.io
 3. Generate an Authentication token on SonarQube
     Account --> my account --> Security --> Generate Tokens 
 
@@ -18,8 +18,8 @@
    Manage Jenkins --> Configure System --> sonarqube server 
    Add Sonarqube server 
    - Name: `sonar-server`
-   - Server URL: '<private_ip>'
-           or `https://sonarcloud.io/`
+   - Server URL: `<private_ip>`
+           `OR` `https://sonarcloud.io/`
    - Server authentication token: `sonarqube-key`
 
 7. Configure sonarqube scanner 
